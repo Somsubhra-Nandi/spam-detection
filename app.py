@@ -3,8 +3,8 @@ import joblib
 import re
 
 # ------------------ LOAD MODEL ------------------ #
-model = joblib.load("models_v2/mnb.pkl")
-vectorizer = joblib.load("models_v2/vectorizer.pkl")
+model = joblib.load("models_v3/mnb.pkl")
+vectorizer = joblib.load("models_v3/vectorizer.pkl")
 
 # ------------------ PAGE CONFIG ------------------ #
 st.set_page_config(
